@@ -1,0 +1,3 @@
+s3.create_bucket(Bucket='mybucket')
+s3.create_bucket(Bucket='mybucket', CreateBucketConfiguration={
+    'LocationConstraint': 'us-west-2'})
